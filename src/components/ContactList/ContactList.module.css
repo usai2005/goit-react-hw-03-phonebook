@@ -1,0 +1,31 @@
+.contact__list {
+    margin-left: 25px;
+
+    list-style-image: url(../../img/phone.svg
+    );
+}
+
+.contact__list li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.contact__list div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 500px;
+}
+
+.contact__list p {
+    color: #086265;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.contact__list span {
+    color: #04393a;
+    font-weight: 700;
+    margin-left: 10px;
+}

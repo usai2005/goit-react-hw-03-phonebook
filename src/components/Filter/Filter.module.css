@@ -1,0 +1,35 @@
+.filter {
+    margin-bottom: 30px;
+}
+
+.filter__label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    color: #086265;
+    font-size: 20px;
+}
+
+.filter__label + input {
+    height: 25px;
+    width: 300px;
+
+    outline: none;
+    border: 2px solid #08888d;
+
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 4px rgba(0, 0 ,0, 0.2);
+
+    font-size: 18px;
+    font-weight: 500;
+    
+    cursor: pointer;
+
+    color: #08888d;
+}
+
+.filter__label + input:focus {    
+    border: 2px solid #78f1f5;
+}

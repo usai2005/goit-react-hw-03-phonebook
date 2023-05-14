@@ -1,0 +1,19 @@
+.phonebook__section {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.phonebook__title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #065254;
+    margin-bottom: 20px;
+}
+
+.contacts__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+    color: #065254;
+}

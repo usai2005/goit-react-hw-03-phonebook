@@ -1,0 +1,30 @@
+.item__button {
+    width: 100px;
+    height: 26px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #08888d;
+
+    cursor: pointer;
+
+    background-color: #dcf4f5;
+    
+    border: 2px solid #78f1f5;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 4px rgba(0, 0 ,0, 0.2);
+}
+
+.item__button:hover {
+    color: #045d61;
+    background-color: #78f1f5;
+    border: 2px solid #8ec1c4;
+    transition: background-color 250ms linear;
+}
+
+.item__button:active {
+    transform: scale( 1.03 );
+    transition: transform 50ms ease-in-out;  
+}
